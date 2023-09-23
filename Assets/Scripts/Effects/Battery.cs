@@ -1,13 +1,13 @@
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 public class Battery : ItemsEffects
 {
-    public Light2D test;
+    public UnityEngine.Rendering.Universal.Light2D test;
     public override void RunEffect()
     {
         // Aumenta o raio de luz
-        test = this.GetComponent<Light2D>();
+        test = this.GetComponent<UnityEngine.Rendering.Universal.Light2D>();
         test.pointLightOuterRadius = test.pointLightOuterRadius*1.5f;
 
 

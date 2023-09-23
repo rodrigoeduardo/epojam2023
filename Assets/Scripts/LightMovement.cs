@@ -49,4 +49,12 @@ public class LightMovement : MonoBehaviour
 
         return new UnityEngine.Vector3(xLight,yLight,zLight);
     }
+
+
+    private void OnDrawGizmosSelected() {
+        Gizmos.color = new Color(0, 1, 0, 0.5f);
+        Gizmos.DrawSphere(this.gameObject.transform.position, 0.878f);
+    }
+
+
 }
