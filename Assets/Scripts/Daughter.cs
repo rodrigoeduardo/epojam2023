@@ -8,7 +8,6 @@ public class Daughter : MonoBehaviour
 
     private Animator animator;
     private SpriteRenderer sprite;
-    [SerializeField] private Transform player; // Referência ao cursor do mouse
     [SerializeField] private float rotationSpeed = 1.0f; // Velocidade de rotação no quarto
     [SerializeField] private string currentRoom = "SALA"; // Inicialmente na sala
     [SerializeField] private float radius = 10.0f; // Raio do círculo
