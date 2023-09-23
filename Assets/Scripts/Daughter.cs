@@ -62,7 +62,9 @@ public class Daughter : MonoBehaviour
     // Faz o NPC ficar parado (IDLE)
     private void Idle()
     {
-        animator.SetBool(DAUGHTER_WALKING, false); // Define o parâmetro DAUGHTER_WALKING para false
+        if (animator.GetBool(DAUGHTER_WALKING)) {
+            animator.SetBool(DAUGHTER_WALKING, false); // Define o parâmetro DAUGHTER_WALKING para false
+        }
     }
 
     // Move o NPC em direção ao cursor do mouse na cozinha
