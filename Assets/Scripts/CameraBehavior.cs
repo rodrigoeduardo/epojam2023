@@ -9,7 +9,9 @@ public class CameraBehavior : MonoBehaviour
     [SerializeField] private Camera camera;
     [SerializeField] private GameObject light;
 
-    [SerializeField] private float accConst = 1;
+
+    [SerializeField] private float accXConst;
+    [SerializeField] private float accYConst;
 
     [SerializeField] private float leftLimit, rightLimit, topLimit, botLimit;
 
@@ -25,38 +27,11 @@ public class CameraBehavior : MonoBehaviour
     {
         UnityEngine.Vector3 mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
         UnityEngine.Vector3 cameraPos = camera.transform.position;
-        light.transform.position = getLightPos(mousePos, cameraPos);
-
-        camera.transform.position = cameraPos + getCameraAcceleration(mousePos, cameraPos);
         
+        camera.transform.position = cameraPos + getCameraAcceleration(mousePos, cameraPos);        
     }
 
-    UnityEngine.Vector3 getLightPos(UnityEngine.Vector3 mousePos, UnityEngine.Vector3 cameraPos){        
-        float xLight;
-        float yLight;
-        float zLight = 0;
-
-        float deltaX = mousePos.x - cameraPos.x;
-        float deltaY = mousePos.y - cameraPos.y;
-
-        if(deltaY>1f){
-            yLight=cameraPos.y+1f;
-        }else if (deltaY<-1f){
-            yLight=cameraPos.y-1f;
-        }else{
-            yLight = mousePos.y;
-        }       
-
-        if(deltaX>2.6f){
-            xLight=cameraPos.x+2.6f;
-        }else if(deltaX<-2.6f){
-            xLight=cameraPos.x-2.6f;
-        }else{
-            xLight=mousePos.x;
-        }
-
-        return new UnityEngine.Vector3(xLight,yLight,zLight);
-    }
+    
 
     UnityEngine.Vector3 getCameraAcceleration(UnityEngine.Vector3 mousePos, UnityEngine.Vector3 cameraPos){
         float deltaX = mousePos.x - cameraPos.x;
@@ -85,7 +60,7 @@ public class CameraBehavior : MonoBehaviour
             accY= 0;
         }
 
-        return new UnityEngine.Vector3(accX*accConst, accY*accConst, accZ);
+        return new UnityEngine.Vector3(accX*accXConst, accY*accYConst, accZ);
 
     }
 
