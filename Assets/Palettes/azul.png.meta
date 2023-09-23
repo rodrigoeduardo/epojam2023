@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14d3fe945c84bdf8380623af0f2a8b30
+guid: 2a6921a2a975f5cbd8ab04fcb897a2aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: amarelo_0
+      name: azul_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b681d9fd6881a79dea6c0375bd9485d8
-      internalID: -1246128540
+      spriteID: 7edf898bc65a78aed929eb925c84b9d2
+      internalID: 734015547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_1
+      name: azul_1
       rect:
         serializedVersion: 2
         x: 16
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56413ab3b7c683bb9666526b5def0d2
-      internalID: -1782603488
+      spriteID: 45ff3925fac98e585bcdf18535a653fa
+      internalID: 898408769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_2
+      name: azul_2
       rect:
         serializedVersion: 2
         x: 32
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f357c3d14729208919b57b949c2008b1
-      internalID: 1377103947
+      spriteID: eb9419267acad53ad8433050c41a0610
+      internalID: 366508364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_3
+      name: azul_3
       rect:
         serializedVersion: 2
         x: 48
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b091be5e0f6a6f96c831e6a924cd3e18
-      internalID: 760500017
+      spriteID: 764c459ee757227ab8c9f9bb57021ffb
+      internalID: -689776905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_4
+      name: azul_4
       rect:
         serializedVersion: 2
         x: 64
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ead7c3d6e4060ee93d87a0f5f16e59
-      internalID: 229499376
+      spriteID: 01cb9c0f2fea4f443a918c307a36c053
+      internalID: -969217438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_5
+      name: azul_5
       rect:
         serializedVersion: 2
         x: 0
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9df0b3445123ac6a1b1e2ea65971b5fc
-      internalID: 798782072
+      spriteID: a20789885fcdaf968a1d8ba234e9ffc7
+      internalID: -2033166556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_6
+      name: azul_6
       rect:
         serializedVersion: 2
         x: 32
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06c82835f964f24a282dbb9df119b4ec
-      internalID: 670527010
+      spriteID: 6d8ada732a7cf088a9074d46587f954e
+      internalID: 1135188059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_7
+      name: azul_7
       rect:
         serializedVersion: 2
         x: 48
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a35ede9862158275382b40055721552c
-      internalID: 1943502190
+      spriteID: 0c818eeb86aec28479119bf8aba3774a
+      internalID: 447738025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_8
+      name: azul_8
       rect:
         serializedVersion: 2
         x: 64
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03bf77429ff33c138a7022443237e8e2
-      internalID: 1314886810
+      spriteID: ce817aa5a76c7f57ab051823a7e1e3f2
+      internalID: -1492050018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_9
+      name: azul_9
       rect:
         serializedVersion: 2
         x: 0
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3abb5b00e7fad9a9332e9cee658a49
-      internalID: -1903130607
+      spriteID: 9030c3d42c8d3368eba490ebb8e5b116
+      internalID: -298351494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_10
+      name: azul_10
       rect:
         serializedVersion: 2
         x: 16
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a9866cfb57bfda19b92972cef800b41
-      internalID: -1403659395
+      spriteID: aed329cc2791f74d9b7e5d02e2a018b9
+      internalID: -1324266117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_11
+      name: azul_11
       rect:
         serializedVersion: 2
         x: 32
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 000e35cdeb1f1db3c9528e0374c2b84a
-      internalID: 224619445
+      spriteID: 9d901a6c6fc293ae7a6fe5568d05d16f
+      internalID: 1564467688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_12
+      name: azul_12
       rect:
         serializedVersion: 2
         x: 48
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63b8b97ea7ac3735d87c0c2268e34dfd
-      internalID: -870263517
+      spriteID: 3006c383e65a14b1fa78c39808d9bb59
+      internalID: 190173906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_13
+      name: azul_13
       rect:
         serializedVersion: 2
         x: 64
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17cdd24e49af0c92e8ca81d05a386437
-      internalID: -2001272582
+      spriteID: c4bcc5e4c3d702858aa8e453c96405c7
+      internalID: 1689632436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_14
+      name: azul_14
       rect:
         serializedVersion: 2
         x: 0
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e71209f6064837d3bcfc8f1c4f00985
-      internalID: -337630259
+      spriteID: 1f4eef4dfcaac6f808e623ecc35b8a03
+      internalID: 2064351998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_15
+      name: azul_15
       rect:
         serializedVersion: 2
         x: 16
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eee4c1b9a689d4a5af98ccdf510af40
-      internalID: 752578370
+      spriteID: 4b6025313cce289fd99db94a7a99fe1d
+      internalID: 1426293449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_16
+      name: azul_16
       rect:
         serializedVersion: 2
         x: 32
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c45fd29bf46b5af2abf4f26a1ef0d6b
-      internalID: -975021248
+      spriteID: 8824b025ef8510cb29f2a26c1d4b5ab6
+      internalID: -1586177331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_17
+      name: azul_17
       rect:
         serializedVersion: 2
         x: 0
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6df1ced4f62c9ffe89f27a3470f36b0
-      internalID: -1599175191
+      spriteID: f24a2b36f06c2c5da91370247b602440
+      internalID: 1891046041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_18
+      name: azul_18
       rect:
         serializedVersion: 2
         x: 16
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6de789ad7f84d24c5b36a3966fedecd7
-      internalID: 211997270
+      spriteID: cc94722f93b161130a372ea45b3b18e5
+      internalID: 182851896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_19
+      name: azul_19
       rect:
         serializedVersion: 2
         x: 32
@@ -523,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75179b467c7ed7ac6b012e0723940db7
-      internalID: -371165392
+      spriteID: 088f0269ea6fe67109afa4e47b4f50d1
+      internalID: -1002860359
       vertices: []
       indices: 
       edges: []
@@ -540,26 +540,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      amarelo_0: -1246128540
-      amarelo_1: -1782603488
-      amarelo_10: -1403659395
-      amarelo_11: 224619445
-      amarelo_12: -870263517
-      amarelo_13: -2001272582
-      amarelo_14: -337630259
-      amarelo_15: 752578370
-      amarelo_16: -975021248
-      amarelo_17: -1599175191
-      amarelo_18: 211997270
-      amarelo_19: -371165392
-      amarelo_2: 1377103947
-      amarelo_3: 760500017
-      amarelo_4: 229499376
-      amarelo_5: 798782072
-      amarelo_6: 670527010
-      amarelo_7: 1943502190
-      amarelo_8: 1314886810
-      amarelo_9: -1903130607
+      azul_0: 734015547
+      azul_1: 898408769
+      azul_10: -1324266117
+      azul_11: 1564467688
+      azul_12: 190173906
+      azul_13: 1689632436
+      azul_14: 2064351998
+      azul_15: 1426293449
+      azul_16: -1586177331
+      azul_17: 1891046041
+      azul_18: 182851896
+      azul_19: -1002860359
+      azul_2: 366508364
+      azul_3: -689776905
+      azul_4: -969217438
+      azul_5: -2033166556
+      azul_6: 1135188059
+      azul_7: 447738025
+      azul_8: -1492050018
+      azul_9: -298351494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

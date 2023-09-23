@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14d3fe945c84bdf8380623af0f2a8b30
+guid: b25aa13f96a898584a8a22dfd1a8ba73
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: amarelo_0
+      name: paredes-amarelo_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b681d9fd6881a79dea6c0375bd9485d8
-      internalID: -1246128540
+      spriteID: 983efcd964a75ca2a8dcabafbc167ea2
+      internalID: -1830645326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_1
+      name: paredes-amarelo_1
       rect:
         serializedVersion: 2
         x: 16
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56413ab3b7c683bb9666526b5def0d2
-      internalID: -1782603488
+      spriteID: 5bc16d8c3a850c9cc880835e994c0c4f
+      internalID: -1189157449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_2
+      name: paredes-amarelo_2
       rect:
         serializedVersion: 2
         x: 32
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f357c3d14729208919b57b949c2008b1
-      internalID: 1377103947
+      spriteID: 00d5b8c827905474eb71e1268e3f8009
+      internalID: -21754612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_3
+      name: paredes-amarelo_3
       rect:
         serializedVersion: 2
         x: 48
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b091be5e0f6a6f96c831e6a924cd3e18
-      internalID: 760500017
+      spriteID: 4bfddb648804cd92aa509ebbc4639ac6
+      internalID: 940114258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_4
+      name: paredes-amarelo_4
       rect:
         serializedVersion: 2
         x: 64
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ead7c3d6e4060ee93d87a0f5f16e59
-      internalID: 229499376
+      spriteID: 2140144c214c25f0782536cf1500d59d
+      internalID: -2004063934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_5
+      name: paredes-amarelo_5
       rect:
         serializedVersion: 2
         x: 0
@@ -229,14 +229,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9df0b3445123ac6a1b1e2ea65971b5fc
-      internalID: 798782072
+      spriteID: cfee0f5140acb1c8aa4480a62be966b5
+      internalID: -1297299672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_6
+      name: paredes-amarelo_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c1379cce4aa6b9fba8b63be61079cd
+      internalID: -1863015027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredes-amarelo_7
       rect:
         serializedVersion: 2
         x: 32
@@ -250,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06c82835f964f24a282dbb9df119b4ec
-      internalID: 670527010
+      spriteID: ca4f45d8e2c67d34998260ca600def8c
+      internalID: 139324625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_7
+      name: paredes-amarelo_8
       rect:
         serializedVersion: 2
         x: 48
@@ -271,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a35ede9862158275382b40055721552c
-      internalID: 1943502190
+      spriteID: 12ca522e75a1b6a13abb4b7837534f9b
+      internalID: -4373330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_8
+      name: paredes-amarelo_9
       rect:
         serializedVersion: 2
         x: 64
@@ -292,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03bf77429ff33c138a7022443237e8e2
-      internalID: 1314886810
+      spriteID: 8c2cf7672f7d48432ad19c615adee8e0
+      internalID: -658068139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_9
+      name: paredes-amarelo_10
       rect:
         serializedVersion: 2
         x: 0
@@ -313,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3abb5b00e7fad9a9332e9cee658a49
-      internalID: -1903130607
+      spriteID: e370f66864b664491a05c3ac64f66a3b
+      internalID: -390813813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_10
+      name: paredes-amarelo_11
       rect:
         serializedVersion: 2
         x: 16
@@ -334,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a9866cfb57bfda19b92972cef800b41
-      internalID: -1403659395
+      spriteID: bf8de0d474695bae8ac6222c577fe724
+      internalID: 2015684229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_11
+      name: paredes-amarelo_12
       rect:
         serializedVersion: 2
         x: 32
@@ -355,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 000e35cdeb1f1db3c9528e0374c2b84a
-      internalID: 224619445
+      spriteID: 1c63c8979109dcf34a8ff5ee50f7f2b5
+      internalID: 410145125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_12
+      name: paredes-amarelo_13
       rect:
         serializedVersion: 2
         x: 48
@@ -376,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63b8b97ea7ac3735d87c0c2268e34dfd
-      internalID: -870263517
+      spriteID: f907d034fbd6310118f2a9100efad612
+      internalID: -412967175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo_13
+      name: paredes-amarelo_14
       rect:
         serializedVersion: 2
         x: 64
@@ -397,134 +418,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17cdd24e49af0c92e8ca81d05a386437
-      internalID: -2001272582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: amarelo_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e71209f6064837d3bcfc8f1c4f00985
-      internalID: -337630259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: amarelo_15
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eee4c1b9a689d4a5af98ccdf510af40
-      internalID: 752578370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: amarelo_16
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c45fd29bf46b5af2abf4f26a1ef0d6b
-      internalID: -975021248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: amarelo_17
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6df1ced4f62c9ffe89f27a3470f36b0
-      internalID: -1599175191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: amarelo_18
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6de789ad7f84d24c5b36a3966fedecd7
-      internalID: 211997270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: amarelo_19
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75179b467c7ed7ac6b012e0723940db7
-      internalID: -371165392
+      spriteID: adaacc909c0493288a19f025626215e1
+      internalID: -730192531
       vertices: []
       indices: 
       edges: []
@@ -540,26 +435,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      amarelo_0: -1246128540
-      amarelo_1: -1782603488
-      amarelo_10: -1403659395
-      amarelo_11: 224619445
-      amarelo_12: -870263517
-      amarelo_13: -2001272582
-      amarelo_14: -337630259
-      amarelo_15: 752578370
-      amarelo_16: -975021248
-      amarelo_17: -1599175191
-      amarelo_18: 211997270
-      amarelo_19: -371165392
-      amarelo_2: 1377103947
-      amarelo_3: 760500017
-      amarelo_4: 229499376
-      amarelo_5: 798782072
-      amarelo_6: 670527010
-      amarelo_7: 1943502190
-      amarelo_8: 1314886810
-      amarelo_9: -1903130607
+      paredes-amarelo_0: -1830645326
+      paredes-amarelo_1: -1189157449
+      paredes-amarelo_10: -390813813
+      paredes-amarelo_11: 2015684229
+      paredes-amarelo_12: 410145125
+      paredes-amarelo_13: -412967175
+      paredes-amarelo_14: -730192531
+      paredes-amarelo_2: -21754612
+      paredes-amarelo_3: 940114258
+      paredes-amarelo_4: -2004063934
+      paredes-amarelo_5: -1297299672
+      paredes-amarelo_6: -1863015027
+      paredes-amarelo_7: 139324625
+      paredes-amarelo_8: -4373330
+      paredes-amarelo_9: -658068139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
