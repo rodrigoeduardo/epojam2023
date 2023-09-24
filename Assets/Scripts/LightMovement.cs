@@ -15,10 +15,12 @@ public class LightMovement : MonoBehaviour
 
     public bool isDrunk =false;
 
+
     // Start is called before the first frame update
     void Start()
     {
         startIntensity = GetComponent<UnityEngine.Rendering.Universal.Light2D>().intensity;
+
     }
 
     // Update is called once per frame
@@ -29,7 +31,9 @@ public class LightMovement : MonoBehaviour
 
         this.transform.position = getLightPos(mousePos, cameraPos);
 
+
         if(isDrunk){
+
             FlashlightFailing();
             GetComponent<UnityEngine.Rendering.Universal.Light2D>().intensity=lightIntensity;
         }
@@ -81,8 +85,8 @@ public class LightMovement : MonoBehaviour
         {
             nextIntensity = Random.Range(0f, 0.3f);
         }                
-    } 
 
+    } 
 
     private void OnDrawGizmosSelected() {
         Gizmos.color = new Color(0, 1, 0, 0.5f);
