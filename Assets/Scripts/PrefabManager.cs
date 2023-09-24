@@ -15,15 +15,24 @@ public class PrefabManager : MonoBehaviour
 
         List<GameObject> spawnList = new List<GameObject>();
 
+        ItemsSingleton items = ItemsSingleton.Instance;
+
         foreach (GameObject obj in spawnObjects){
             spawnList.Add(obj);
         }
 
         foreach (GameObject mob in mobs){
+            if(mob.CompareTag("Key")){
+                Key key = mob.GetComponent<Key>();
+                char k = key.getKey();
+                if(items.hasKey(k)){
+                    continue;
+                }
+            }
             int random_spawn = Random.Range(0,spawnList.Count);
             Vector3 spawnPos = spawnList[random_spawn].transform.position;  
-            Quaternion spawnQuar = spawnList[random_spawn].transform.rotation;        
-            Instantiate(mob, spawnPos, spawnQuar);
+        
+            mob.transform.position = spawnPos;
             spawnList.RemoveAt(random_spawn);
         }
 
