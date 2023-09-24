@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Daughter
   - Light
+  - Battery
+  - Phone
+  - Beer
+  - LightSwitch
   layers:
   - Default
   - TransparentFX
