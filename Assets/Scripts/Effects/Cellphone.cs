@@ -4,22 +4,27 @@ using UnityEngine;
 
 public class Cellphone : ItemsEffects
 {
+    [SerializeField] private GameObject daughterPhone;
     public override void RunEffect()
     {        
         // Liga para a filha e mostra sua localização no celular
         // Implemente o código para ligar para a filha e mostrar a localização aqui
         GameObject cell = this.gameObject;
-        cell.SetActive(true);
-        StartCoroutine(phoneRing(cell));
-        print("Liga para a filha");
+        cell.GetComponent<BoxCollider2D>().enabled=false;
+
+        cell.transform.Find("Canvas").gameObject.SetActive(false);
+        StartCoroutine(phoneRing(cell, daughterPhone));
+        AudioManager.instance.PlayAudio(sound);
         
     }
 
-    IEnumerator phoneRing(GameObject cell){
+    IEnumerator phoneRing(GameObject cell, GameObject daughterCell){
         //COMEÇAR SOM
-        
-        yield return new WaitForSeconds(15f);
+        daughterCell.SetActive(true);
+        yield return new WaitForSeconds(7f);
+        daughterCell.SetActive(false);
         cell.SetActive(false);
+        
         //PARAR SOM
 
     }

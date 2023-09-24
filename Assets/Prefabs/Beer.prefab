@@ -251,6 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7af695a16d959becf8820a84bc625951, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 48b26a96fd751a0bb8b9923fed1177af, type: 3}
   light: {fileID: 0}
   getButton: {fileID: 9122937124868040700}
 --- !u!1 &2633376152710443795

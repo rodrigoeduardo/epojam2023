@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ItemsEffects : EffectsAbstract {
-    private void Start() {
+    public void Start() {
         // Desativa os botões inicialmente
         getButton.gameObject.SetActive(false);
     }
@@ -13,18 +13,13 @@ public class ItemsEffects : EffectsAbstract {
         // Realiza o efeito do objeto
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
+    protected void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Light"))  {
             getButton.gameObject.SetActive(true);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) {
+    protected void OnTriggerExit2D(Collider2D other) {
         getButton.gameObject.SetActive(false);
-    }
-
-    // Você também pode adicionar funcionalidade para quando os botões forem clicados
-    public override void OnGetButtonClick()  {
-        print("PEGAR");
     }
 }
