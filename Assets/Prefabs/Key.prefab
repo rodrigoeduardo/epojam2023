@@ -193,7 +193,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!114 &6876355262897175209
 MonoBehaviour:
@@ -265,7 +265,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.1017013, y: 2.6781938, z: -0.03283064}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.73517, y: 0.73517, z: 0.73517}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3477632849228924503}
@@ -311,7 +311,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -413474699, guid: 54b281eaa27a367468af046c696e1aec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   light: {fileID: 0}
   getButton: {fileID: 7861589805775145216}
   key: 65
-  image: {fileID: -602494712, guid: 0b7de3707b475bb58be8075b9bb7a3e0, type: 3}
+  image: {fileID: -2066654049, guid: 99ea84ffb0d68af08852e9e319674a3e, type: 3}
 --- !u!61 &8335466352377409462
 BoxCollider2D:
   m_ObjectHideFlags: 0
