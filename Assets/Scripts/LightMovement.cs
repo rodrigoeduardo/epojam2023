@@ -88,7 +88,7 @@ public class LightMovement : MonoBehaviour
 
     private void OnDrawGizmosSelected() {
         Gizmos.color = new Color(0, 1, 0, 0.5f);
-        Gizmos.DrawSphere(this.gameObject.transform.position, 0.878f);
+        Gizmos.DrawSphere(this.gameObject.transform.position, 0.5f);
     }
 
 

@@ -27,14 +27,14 @@ public class Daughter : MonoBehaviour
 
     public void Update() {
         // Verifica a sala atual e toma decisões com base nela
-        switch (currentRoom)
-        {
-            case "QUARTO-PAI":
-                MoveInCircle();
-                break;
+        switch (currentRoom) {
 
             case "SALA":
                 Idle();
+                break;
+
+            case "QUARTO-PAI":
+                MoveInCircle();
                 break;
 
             case "QUARTO-FILHA":
