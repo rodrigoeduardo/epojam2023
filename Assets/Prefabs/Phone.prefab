@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: 48b26a96fd751a0bb8b9923fed1177af, type: 3}
-  light: {fileID: 0}
+  light: {fileID: 7054995564864878250, guid: e048614843b27494aaf9dc83217e2dc2, type: 3}
   getButton: {fileID: 8635930828463178754}
   daughterPhone: {fileID: 2175510427517340277}
 --- !u!1 &2175510427517340277

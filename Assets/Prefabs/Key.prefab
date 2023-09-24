@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: 88879dc6bd7d1fca5851848f57d514a9, type: 3}
-  light: {fileID: 0}
+  light: {fileID: 7054995564864878250, guid: e048614843b27494aaf9dc83217e2dc2, type: 3}
   getButton: {fileID: 7861589805775145216}
   key: 65
   image: {fileID: -602494712, guid: 0b7de3707b475bb58be8075b9bb7a3e0, type: 3}
