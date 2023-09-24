@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Daughter : MonoBehaviour 
 {
-    public AudioClip soundWalking;
     public static string DAUGHTER_WALKING = "DaughterWalking";
 
     private Animator animator;
@@ -58,7 +57,6 @@ public class Daughter : MonoBehaviour
         Vector3 offset = new Vector3(Mathf.Cos(angle) * radius, Mathf.Sin(angle) * radius, 0f);
         transform.position = centerPosition + offset;
         sprite.flipX = offset.x > 0f;
-        AudioManager.instance.PlayAudio(soundWalking);
     }
 
     // Faz o NPC ficar parado (IDLE)
@@ -84,6 +82,6 @@ public class Daughter : MonoBehaviour
 
         // Ajusta o flip do sprite com base na direção do movimento
         sprite.flipX = targetPosition.x < transform.position.x;
-        AudioManager.instance.PlayAudio(soundWalking);
+        //AudioManager.instance.PlayAudio(soundWalking);
     }
 }
