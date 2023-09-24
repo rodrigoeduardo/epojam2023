@@ -23,6 +23,7 @@ public class Key : ItemsEffects
 
     public void Start()
     {
+        getButton.gameObject.SetActive(false);
         if (image != null)
         {
             // Acesse o SpriteRenderer do GameObject atual.

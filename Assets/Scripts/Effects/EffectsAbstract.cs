@@ -8,5 +8,4 @@ public abstract class EffectsAbstract : MonoBehaviour
     [SerializeField] protected Button getButton;
 
     public abstract void RunEffect();
-    public abstract void OnGetButtonClick();
 }
