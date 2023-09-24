@@ -10,6 +10,7 @@ TagManager:
   - Phone
   - Beer
   - LightSwitch
+  - Audio
   layers:
   - Default
   - TransparentFX
