@@ -14,11 +14,8 @@ public class ItemsEffects : EffectsAbstract {
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        print("Trigger");
-        // Verifica se o jogador entrou na área de gatilho
         if (other.CompareTag("Light"))  {
             getButton.gameObject.SetActive(true);
-            print("LIGHT");
         }
     }
 

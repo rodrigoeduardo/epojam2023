@@ -11,6 +11,7 @@ public class Cellphone : ItemsEffects
         GameObject cell = this.gameObject;
         cell.SetActive(true);
         StartCoroutine(phoneRing(cell));
+        print("Liga para a filha");
         
     }
 

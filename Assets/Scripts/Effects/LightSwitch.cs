@@ -7,6 +7,6 @@ public class LightSwitch : ItemsEffects
 {
     public override void RunEffect()
     {
-        // Faz a luz do cômodo piscar rapidamente
+        print("Aumenta o raio de luz");
     }
 }
