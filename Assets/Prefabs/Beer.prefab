@@ -155,7 +155,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -785998090, guid: 903645e4bcfebc0b3a2493680c54b227, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -251,8 +251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7af695a16d959becf8820a84bc625951, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 48b26a96fd751a0bb8b9923fed1177af, type: 3}
-  light: {fileID: 7054995564864878250, guid: e048614843b27494aaf9dc83217e2dc2, type: 3}
+  sound: {fileID: 8300000, guid: 9ee992042b598b38ca9556bfdffaffdb, type: 3}
+  light: {fileID: 0}
   getButton: {fileID: 9122937124868040700}
 --- !u!1 &2633376152710443795
 GameObject:
@@ -447,7 +447,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!114 &7651333441637029255
 MonoBehaviour:
