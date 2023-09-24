@@ -4088,6 +4088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 1648232708113794466, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -452.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648232708113794466, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -257
+      objectReference: {fileID: 0}
     - target: {fileID: 2216679306262772454, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.39
@@ -4127,6 +4135,14 @@ PrefabInstance:
     - target: {fileID: 2216679306262772454, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430180006381896882, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1414271620}
+    - target: {fileID: 4430180006381896882, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
+      propertyPath: nextSceneName
+      value: Bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 5980730829126341875, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
       propertyPath: key

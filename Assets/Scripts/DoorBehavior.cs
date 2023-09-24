@@ -16,7 +16,7 @@ public class DoorBehavior : MonoBehaviour
             string nextDoor = PlayerPrefs.GetString("BedroomDoor");
             if (nextDoor == "DoorA")
             {
-                camera.transform.position = new Vector3(-3.9f, 2.92f, -10f);
+                camera.transform.position = new Vector3(-5.72f, 2.92f, -10f);
             }
             else if (nextDoor == "DoorB")
             {
@@ -33,7 +33,7 @@ public class DoorBehavior : MonoBehaviour
 
     }
 
-    private void OnMouseDown()
+    public void OpenDoor()
     {
         if (!ItemsSingleton.Instance.hasKey(key)) return;
 
