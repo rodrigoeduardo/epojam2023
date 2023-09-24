@@ -7,6 +7,6 @@ public class LightSwitch : ItemsEffects
 {
     public override void RunEffect()
     {
-        print("Aumenta o raio de luz");
+        print("Liga a luz por completo");
     }
 }
