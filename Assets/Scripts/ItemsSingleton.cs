@@ -5,7 +5,7 @@ public class ItemsSingleton
 {
     // ItemsSingleton keys = ItemsSingleton.Instance;
 
-    private HashSet<char> keys = new HashSet<char>() { 'A', 'B' };
+    private HashSet<char> keys = new HashSet<char>();
 
     private static ItemsSingleton instance;
 

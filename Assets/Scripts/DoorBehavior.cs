@@ -8,9 +8,13 @@ public class DoorBehavior : MonoBehaviour
     [SerializeField] private string nextSceneName;
     [SerializeField] private GameObject camera;
     [SerializeField] private char key; // [A, B, C, D...]
+
+    public TextoBehavior textController;
     // Start is called before the first frame update
     void Start()
     {
+        textController = GameObject.Find("CanvasTexto").GetComponent<TextoBehavior>();
+
         if (SceneManager.GetActiveScene().name == "Bedroom")
         {
             string nextDoor = PlayerPrefs.GetString("BedroomDoor");
@@ -35,7 +39,13 @@ public class DoorBehavior : MonoBehaviour
 
     public void OpenDoor()
     {
-        if (!ItemsSingleton.Instance.hasKey(key)) return;
+        if (!ItemsSingleton.Instance.hasKey(key))
+        {
+            textController.ShowText("Preciso encontrar a chave dessa porta...");
+
+            Invoke("HideTextAfterDelay", 3f);
+            return;
+        }
 
         if (nextSceneName == "Bedroom")
         {
@@ -50,5 +60,10 @@ public class DoorBehavior : MonoBehaviour
         }
 
         SceneManager.LoadScene(nextSceneName);
+    }
+
+    void HideTextAfterDelay()
+    {
+        textController.HideText();
     }
 }
