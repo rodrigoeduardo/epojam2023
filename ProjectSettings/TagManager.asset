@@ -12,6 +12,7 @@ TagManager:
   - LightSwitch
   - Audio
   - Key
+  - SpawnSpot
   layers:
   - Default
   - TransparentFX

@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: 48b26a96fd751a0bb8b9923fed1177af, type: 3}
-  light: {fileID: 0}
+  light: {fileID: 7054995564864878250, guid: e048614843b27494aaf9dc83217e2dc2, type: 3}
   getButton: {fileID: 132355360211095022}
 --- !u!50 &8478778913132393907
 Rigidbody2D:
