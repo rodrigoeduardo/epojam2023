@@ -82,5 +82,6 @@ public class Daughter : MonoBehaviour
 
         // Ajusta o flip do sprite com base na direção do movimento
         sprite.flipX = targetPosition.x < transform.position.x;
+        //AudioManager.instance.PlayAudio(soundWalking);
     }
 }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class ItemsSingleton {
     // ItemsSingleton keys = ItemsSingleton.Instance;
 
-    private HashSet<string> keys = new HashSet<string>();
+    private HashSet<char> keys = new HashSet<char>();
 
     private static ItemsSingleton instance;
 
@@ -20,16 +20,16 @@ public class ItemsSingleton {
     private ItemsSingleton() {}
 
     // Add key method
-    public void addKey(string name) {
-        keys.Add(name);
+    public void addKey(char k) {
+        keys.Add(k);
     }
 
     // Checks if already has key
-    public bool hasKey(string name) {
-        return keys.Contains(name);
+    public bool hasKey(char k) {
+        return keys.Contains(k);
     }
 
     public void clearKeys() {
-        keys = new HashSet<string>();
+        keys = new HashSet<char>();
     }
 }

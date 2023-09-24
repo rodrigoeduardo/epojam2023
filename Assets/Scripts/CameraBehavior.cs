@@ -13,10 +13,6 @@ public class CameraBehavior : MonoBehaviour
     [SerializeField] private float accXConst;
     [SerializeField] private float accYConst;
 
-    [SerializeField] private GameObject bat;
-    [SerializeField] private GameObject cell;
-    [SerializeField] private GameObject beer;
-
     [SerializeField] private float leftLimit, rightLimit, topLimit, botLimit;
 
 
@@ -32,18 +28,7 @@ public class CameraBehavior : MonoBehaviour
         UnityEngine.Vector3 mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
         UnityEngine.Vector3 cameraPos = camera.transform.position;
         
-        camera.transform.position = cameraPos + getCameraAcceleration(mousePos, cameraPos);   
-
-        if(Input.GetKeyDown(KeyCode.Space)){
-            bat.GetComponent<Battery>().RunEffect();
-        }  
-
-        if(Input.GetKeyDown(KeyCode.M)){
-            cell.GetComponent<Cellphone>().RunEffect();
-        } 
-        if(Input.GetKeyDown(KeyCode.N)){
-            beer.GetComponent<Beer>().RunEffect();
-        }   
+        camera.transform.position = cameraPos + getCameraAcceleration(mousePos, cameraPos);      
     }
 
     
