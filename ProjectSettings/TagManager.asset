@@ -11,6 +11,7 @@ TagManager:
   - Beer
   - LightSwitch
   - Audio
+  - Key
   layers:
   - Default
   - TransparentFX
