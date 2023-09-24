@@ -7,6 +7,7 @@ public class DoorBehavior : MonoBehaviour
 {
     [SerializeField] private string nextSceneName;
     [SerializeField] private GameObject camera;
+    [SerializeField] private string key; // [A, B, C, D...]
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,8 @@ public class DoorBehavior : MonoBehaviour
                 camera.transform.position = new Vector3(6.17f, 2.92f, -10f);
             }
         }
-
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
     }
 
     // Update is called once per frame
@@ -33,6 +35,8 @@ public class DoorBehavior : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (!ItemsSingleton.Instance.hasKey(key)) return;
+
         if (nextSceneName == "Bedroom")
         {
             if (SceneManager.GetActiveScene().name == "Room")
