@@ -487,7 +487,7 @@ PrefabInstance:
       objectReference: {fileID: 102339869}
     - target: {fileID: 4430180006381896882, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
       propertyPath: nextSceneName
-      value: Escape
+      value: FinalCutscene
       objectReference: {fileID: 0}
     - target: {fileID: 8294703603433021842, guid: 0d65b7e1f0e24fad49f71238ff11dea0, type: 3}
       propertyPath: m_Name
