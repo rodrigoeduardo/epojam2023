@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -441,9 +441,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a346de02c1a7cf62afd7e630b4d2244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 828d927b4de6c8b7f836a59f37982179, type: 3}
   light: {fileID: 0}
   getButton: {fileID: 3294532355120008150}
-  sound: {fileID: 8300000, guid: 828d927b4de6c8b7f836a59f37982179, type: 3}
 --- !u!61 &5201231611809765741
 BoxCollider2D:
   m_ObjectHideFlags: 0

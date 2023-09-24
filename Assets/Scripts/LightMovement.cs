@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class LightMovement : MonoBehaviour
 {
@@ -91,6 +93,16 @@ public class LightMovement : MonoBehaviour
     private void OnDrawGizmosSelected() {
         Gizmos.color = new Color(0, 1, 0, 0.5f);
         Gizmos.DrawSphere(this.gameObject.transform.position, 0.5f);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.CompareTag("Daughter")){
+            // Perde os intens
+            print("restart");
+            ItemsSingleton.Instance.clearKeys();
+            SceneManager.LoadScene("PrefabButtons");
+        }
     }
 
 
