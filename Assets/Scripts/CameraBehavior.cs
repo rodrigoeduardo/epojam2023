@@ -15,6 +15,7 @@ public class CameraBehavior : MonoBehaviour
 
     [SerializeField] private GameObject bat;
     [SerializeField] private GameObject cell;
+    [SerializeField] private GameObject beer;
 
     [SerializeField] private float leftLimit, rightLimit, topLimit, botLimit;
 
@@ -39,7 +40,10 @@ public class CameraBehavior : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.M)){
             cell.GetComponent<Cellphone>().RunEffect();
-        }  
+        } 
+        if(Input.GetKeyDown(KeyCode.N)){
+            beer.GetComponent<Beer>().RunEffect();
+        }   
     }
 
     
