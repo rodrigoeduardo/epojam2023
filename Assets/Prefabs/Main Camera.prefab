@@ -178,10 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 9095426136494138201}
   light: {fileID: 0}
-  accXConst: 0.0005
-  accYConst: 0.002
-  bat: {fileID: 0}
-  cell: {fileID: 0}
+  accXConst: 0.01
+  accYConst: 0.015
   leftLimit: -5.47
   rightLimit: 7.75
   topLimit: 8.44

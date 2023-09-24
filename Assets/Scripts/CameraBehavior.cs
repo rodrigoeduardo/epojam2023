@@ -15,6 +15,10 @@ public class CameraBehavior : MonoBehaviour
 
     [SerializeField] private float leftLimit, rightLimit, topLimit, botLimit;
 
+    [SerializeField] private bool isRoom = false;
+
+    [SerializeField] private float lowerRightLimit, lowerBotLimit;
+
 
     // Start is called before the first frame update
     void Start()
@@ -39,10 +43,24 @@ public class CameraBehavior : MonoBehaviour
 
         float accX, accY, accZ=0;
 
-        bool onRightLimit = cameraPos.x<rightLimit;
+        bool onBotLimit;
+        if (cameraPos.x < lowerRightLimit && isRoom){
+            onBotLimit = cameraPos.y>lowerBotLimit;
+        }else{
+            onBotLimit = cameraPos.y>botLimit;
+            
+        }
+
+        bool onRightLimit;
+        if(cameraPos.y < botLimit && isRoom){
+            onRightLimit = cameraPos.x<lowerRightLimit;
+        }else{
+            onRightLimit = cameraPos.x<rightLimit;            
+        }
+        
         bool onLeftLimit = cameraPos.x>leftLimit;
         bool onTopLimit = cameraPos.y<topLimit;
-        bool onBotLimit = cameraPos.y>botLimit;
+        
 
         if(deltaX>1.82f && onRightLimit){
             accX = -2+(1.82f*deltaX);

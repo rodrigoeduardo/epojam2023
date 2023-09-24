@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextSceneName: 
   camera: {fileID: 0}
-  key: 
+  key: 55
 --- !u!61 &6515809306830010213
 BoxCollider2D:
   m_ObjectHideFlags: 0

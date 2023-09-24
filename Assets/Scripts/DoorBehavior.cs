@@ -7,7 +7,7 @@ public class DoorBehavior : MonoBehaviour
 {
     [SerializeField] private string nextSceneName;
     [SerializeField] private GameObject camera;
-    [SerializeField] private string key; // [A, B, C, D...]
+    [SerializeField] private char key; // [A, B, C, D...]
     // Start is called before the first frame update
     void Start()
     {
