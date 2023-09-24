@@ -8,10 +8,17 @@ public class LightMovement : MonoBehaviour
 
     [SerializeField] private float maxDeltaX;
     [SerializeField] private float maxDeltaY;
+
+    [SerializeField] private float lightIntensity = 1f;
+    [SerializeField] private float nextIntensity;
+    private float startIntensity;
+
+    public bool isDrunk =false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        startIntensity = GetComponent<UnityEngine.Rendering.Universal.Light2D>().intensity;
     }
 
     // Update is called once per frame
@@ -21,6 +28,11 @@ public class LightMovement : MonoBehaviour
         UnityEngine.Vector3 cameraPos = camera.transform.position;
 
         this.transform.position = getLightPos(mousePos, cameraPos);
+
+        if(isDrunk){
+            FlashlightFailing();
+            GetComponent<UnityEngine.Rendering.Universal.Light2D>().intensity=lightIntensity;
+        }
     }
 
     UnityEngine.Vector3 getLightPos(UnityEngine.Vector3 mousePos, UnityEngine.Vector3 cameraPos){        
@@ -49,6 +61,27 @@ public class LightMovement : MonoBehaviour
 
         return new UnityEngine.Vector3(xLight,yLight,zLight);
     }
+
+    private void FlashlightFailing()
+    {
+        const float coeficientSpeed = 1f;
+
+        if (Mathf.Abs(nextIntensity - lightIntensity) > 0.03f)
+        {
+            if (nextIntensity > lightIntensity)
+            {
+                lightIntensity += Time.deltaTime*coeficientSpeed;
+            }
+            else
+            {
+                lightIntensity -= Time.deltaTime * coeficientSpeed;
+            }
+        }
+        else
+        {
+            nextIntensity = Random.Range(0f, 0.3f);
+        }                
+    } 
 
 
     private void OnDrawGizmosSelected() {
