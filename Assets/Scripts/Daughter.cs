@@ -14,7 +14,7 @@ public class Daughter : MonoBehaviour
 
     private Vector3 targetPosition; // Posição alvo para a cozinha
     private Vector3 centerPosition; // Posição central para o quarto
-    private float moveSpeed = 2.0f; // Velocidade de movimento
+    private float moveSpeed = 1f; // Velocidade de movimento
 
     private float angle = 0f; // Ângulo atual
 
@@ -45,6 +45,7 @@ public class Daughter : MonoBehaviour
                 Debug.LogError("Sala desconhecida: " + currentRoom);
                 break;
         }
+        this.transform.localScale = new Vector3(2f,2f,1f);
     }
 
     // Move o NPC em um trajeto circular no quarto

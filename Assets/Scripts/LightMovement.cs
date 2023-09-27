@@ -101,7 +101,7 @@ public class LightMovement : MonoBehaviour
             // Perde os intens
             print("restart");
             ItemsSingleton.Instance.clearKeys();
-            SceneManager.LoadScene("PrefabButtons");
+            SceneManager.LoadScene("Bedroom");
         }
     }
 
