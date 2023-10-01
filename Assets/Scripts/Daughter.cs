@@ -12,6 +12,8 @@ public class Daughter : MonoBehaviour
     [SerializeField] private string currentRoom = "SALA"; // Inicialmente na sala
     [SerializeField] private float radius = 10.0f; // Raio do círculo
 
+    [SerializeField] private float tamanhoDaBoneca=1.5f;
+
     private Vector3 targetPosition; // Posição alvo para a cozinha
     private Vector3 centerPosition; // Posição central para o quarto
     private float moveSpeed = 1f; // Velocidade de movimento
@@ -23,6 +25,9 @@ public class Daughter : MonoBehaviour
         animator = GetComponent<Animator>();
         centerPosition = transform.position; // Define a posição central como a posição inicial
         targetPosition = centerPosition; // Define a posição alvo inicial como a posição central
+
+        //Tamanho da boneca
+        this.transform.localScale = new Vector3(tamanhoDaBoneca,tamanhoDaBoneca, 1f);
     }
 
     public void Update() {
@@ -45,7 +50,8 @@ public class Daughter : MonoBehaviour
                 Debug.LogError("Sala desconhecida: " + currentRoom);
                 break;
         }
-        this.transform.localScale = new Vector3(2f,2f,1f);
+
+        
     }
 
     // Move o NPC em um trajeto circular no quarto

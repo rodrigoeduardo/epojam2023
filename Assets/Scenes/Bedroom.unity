@@ -920,6 +920,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 808556131136307521, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6335944131923395369, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
       propertyPath: m_Name
       value: Daughter
@@ -967,6 +971,10 @@ PrefabInstance:
     - target: {fileID: 7707456016887025575, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
       propertyPath: radius
       value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707456016887025575, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
+      propertyPath: tamanhoDaBoneca
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1511,11 +1519,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276535578210174237, guid: 1e8480f7dfebeb13a8b2471cc355fcad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.430619
+      value: -3.42
       objectReference: {fileID: 0}
     - target: {fileID: 3276535578210174237, guid: 1e8480f7dfebeb13a8b2471cc355fcad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.55281
+      value: 7.77
       objectReference: {fileID: 0}
     - target: {fileID: 3276535578210174237, guid: 1e8480f7dfebeb13a8b2471cc355fcad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4609,11 +4617,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1159188718204852397, guid: 4b95ae4001e69f3718b716112bbc47c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.99
+      value: -13.5192
       objectReference: {fileID: 0}
     - target: {fileID: 1159188718204852397, guid: 4b95ae4001e69f3718b716112bbc47c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23
+      value: 1.471
       objectReference: {fileID: 0}
     - target: {fileID: 1159188718204852397, guid: 4b95ae4001e69f3718b716112bbc47c8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4650,10 +4658,6 @@ PrefabInstance:
     - target: {fileID: 3129772658962311924, guid: 4b95ae4001e69f3718b716112bbc47c8, type: 3}
       propertyPath: m_Name
       value: Battery (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3638232384941846434, guid: 4b95ae4001e69f3718b716112bbc47c8, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7238035536159787861, guid: 4b95ae4001e69f3718b716112bbc47c8, type: 3}
       propertyPath: light
@@ -4806,8 +4810,16 @@ PrefabInstance:
       value: Phone
       objectReference: {fileID: 0}
     - target: {fileID: 3993757306035763428, guid: 237d6bfab7bbf99ef94041ee112d38d5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 561ff1f9bc1f7c84398c19de5c9c4989, type: 3}
+    - target: {fileID: 3993757306035763428, guid: 237d6bfab7bbf99ef94041ee112d38d5, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277040147152356477, guid: 237d6bfab7bbf99ef94041ee112d38d5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

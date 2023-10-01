@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 
@@ -8,8 +10,7 @@ public class LightMovement : MonoBehaviour
 {
     [SerializeField] private Camera camera;
 
-    [SerializeField] private float maxDeltaX;
-    [SerializeField] private float maxDeltaY;
+    private float maxDeltaX, maxDeltaY;
 
     [SerializeField] private float lightIntensity = 1f;
     [SerializeField] private float nextIntensity;
@@ -17,11 +18,25 @@ public class LightMovement : MonoBehaviour
 
     public bool isDrunk =false;
 
+    private float timeInCurrentRoom =0f;
+
+    private float screenHeight, screenWidth;
+
 
     // Start is called before the first frame update
     void Start()
     {
         startIntensity = GetComponent<UnityEngine.Rendering.Universal.Light2D>().intensity;
+
+        UnityEngine.Vector3 cameraTopRightEdge = camera.ScreenToWorldPoint(new UnityEngine.Vector3(screenWidth,screenHeight,0));
+
+        /*5.43f é a distância do topo da tela até o centro. Baseado na escala testada durante a GameJam;
+        para uma distância de 5.43, o raio inicial da flashligth deve ser 1;       
+        float startRadius = Math.Abs(cameraTopRightEdge.y-camera.transform.position.y)/5.43f;
+        GetComponent<Light2D>().pointLightOuterRadius = startRadius;*/ 
+
+        screenHeight = UnityEngine.Screen.height;
+        screenWidth = UnityEngine.Screen.width;
 
     }
 
@@ -39,9 +54,22 @@ public class LightMovement : MonoBehaviour
             FlashlightFailing();
             GetComponent<UnityEngine.Rendering.Universal.Light2D>().intensity=lightIntensity;
         }
+
+        //Update cronometro
+        timeInCurrentRoom+=Time.deltaTime;
     }
 
-    UnityEngine.Vector3 getLightPos(UnityEngine.Vector3 mousePos, UnityEngine.Vector3 cameraPos){        
+    UnityEngine.Vector3 getLightPos(UnityEngine.Vector3 mousePos, UnityEngine.Vector3 cameraPos){   
+        //Camera Position in world
+
+        UnityEngine.Vector3 cameraTopRightEdge = camera.ScreenToWorldPoint(new UnityEngine.Vector3(screenWidth,screenHeight,0));
+
+        //Get light radius
+        UnityEngine.Rendering.Universal.Light2D light2d = this.GetComponent<UnityEngine.Rendering.Universal.Light2D>();
+        float lightRadius = light2d.pointLightOuterRadius;
+        maxDeltaX = Mathf.Abs(cameraTopRightEdge.x-cameraPos.x-lightRadius);
+        maxDeltaY = Mathf.Abs(cameraTopRightEdge.y-cameraPos.y-lightRadius);
+
         float xLight;
         float yLight;
         float zLight = 0;
@@ -85,7 +113,7 @@ public class LightMovement : MonoBehaviour
         }
         else
         {
-            nextIntensity = Random.Range(0f, 0.3f);
+            nextIntensity = UnityEngine.Random.Range(0f, 0.3f);
         }                
 
     } 
@@ -96,12 +124,15 @@ public class LightMovement : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D other) {
+    private void OnTriggerStay2D(Collider2D other) {
         if(other.CompareTag("Daughter")){
-            // Perde os intens
-            print("restart");
-            ItemsSingleton.Instance.clearKeys();
-            SceneManager.LoadScene("Bedroom");
+            if(timeInCurrentRoom>=1.3f){
+                // Perde os itens
+                print("restart");
+                ItemsSingleton.Instance.clearKeys();
+                SceneManager.LoadScene("Bedroom");
+            }
+            
         }
     }
 
