@@ -32,26 +32,25 @@ public class Daughter : MonoBehaviour
 
     public void Update() {
         // Verifica a sala atual e toma decisões com base nela
-        switch (currentRoom) {
+        if(GameManagerSingleton.Instance.isPlayerAlive()){
+            switch (currentRoom) {            
+                case "SALA":
+                    Idle();
+                    break;
 
-            case "SALA":
-                Idle();
-                break;
+                case "QUARTO-PAI":
+                    MoveInCircle();
+                    break;
 
-            case "QUARTO-PAI":
-                MoveInCircle();
-                break;
+                case "QUARTO-FILHA":
+                    MoveToMouseCursor();
+                    break;
 
-            case "QUARTO-FILHA":
-                MoveToMouseCursor();
-                break;
-
-            default:
-                Debug.LogError("Sala desconhecida: " + currentRoom);
-                break;
-        }
-
-        
+                default:
+                    Debug.LogError("Sala desconhecida: " + currentRoom);
+                    break;
+            }
+        }                
     }
 
     // Move o NPC em um trajeto circular no quarto

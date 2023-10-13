@@ -30,6 +30,9 @@ public class Door : ItemsEffects
 
     private void OnMouseDown()
     {
+        if(!GameManagerSingleton.Instance.isPlayerAlive()){
+            return;
+        }
         if (!ItemsSingleton.Instance.hasKey(key)) {
             print("Não tem a chave " + key);
             return;

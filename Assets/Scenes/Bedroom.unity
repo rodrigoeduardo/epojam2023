@@ -5296,6 +5296,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 10.72
       objectReference: {fileID: 0}
+    - target: {fileID: 766242690708242534, guid: eb25df8246887f448b899579dae8473a, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1223429702449387926, guid: eb25df8246887f448b899579dae8473a, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -5338,6 +5342,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2325790981564574812, guid: eb25df8246887f448b899579dae8473a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485522536667356324, guid: eb25df8246887f448b899579dae8473a, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

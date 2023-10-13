@@ -10,6 +10,9 @@ public class LightSwitch : ItemsEffects
 
     private Light2D globalLight;
     public override void RunEffect() {
+        if(!GameManagerSingleton.Instance.isPlayerAlive()){
+            return;
+        }
         this.gameObject.GetComponent<BoxCollider2D>().enabled=false;
         this.transform.Find("Canvas").gameObject.SetActive(false);
         globalLight= GameObject.Find("GLOBAL LIGHT").GetComponent<Light2D>();  
