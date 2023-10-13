@@ -478,11 +478,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3407901239661217404, guid: e048614843b27494aaf9dc83217e2dc2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.097
+      value: -5.24
       objectReference: {fileID: 0}
     - target: {fileID: 3407901239661217404, guid: e048614843b27494aaf9dc83217e2dc2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.26986092
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 3407901239661217404, guid: e048614843b27494aaf9dc83217e2dc2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -552,7 +552,7 @@ PrefabInstance:
     - target: {fileID: 6030116349743427237, guid: 5fbfa082c1fd9eb9f888a3d913e46f4a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -602494712, guid: 0b7de3707b475bb58be8075b9bb7a3e0, type: 3}
+      objectReference: {fileID: 21300000, guid: f422a5d55b8e5484db5d1f2af598a3be, type: 3}
     - target: {fileID: 6030116349743427237, guid: 5fbfa082c1fd9eb9f888a3d913e46f4a, type: 3}
       propertyPath: m_Color.b
       value: 0.26840115

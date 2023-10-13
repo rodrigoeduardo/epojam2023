@@ -273,11 +273,11 @@ PrefabInstance:
       objectReference: {fileID: 874003482}
     - target: {fileID: 3276535578210174237, guid: 1e8480f7dfebeb13a8b2471cc355fcad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.75
+      value: -2.76
       objectReference: {fileID: 0}
     - target: {fileID: 3276535578210174237, guid: 1e8480f7dfebeb13a8b2471cc355fcad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.56
+      value: 7.78
       objectReference: {fileID: 0}
     - target: {fileID: 3276535578210174237, guid: 1e8480f7dfebeb13a8b2471cc355fcad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -651,6 +651,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 808556131136307521, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6335944131923395369, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
       propertyPath: m_Name
       value: Daughter
@@ -698,6 +702,10 @@ PrefabInstance:
     - target: {fileID: 7707456016887025575, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
       propertyPath: currentRoom
       value: QUARTO-FILHA
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707456016887025575, guid: be10b502df75db54c85dbfb417bbe51e, type: 3}
+      propertyPath: tamanhoDaBoneca
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4720,7 +4728,7 @@ PrefabInstance:
     - target: {fileID: 6030116349743427237, guid: 5fbfa082c1fd9eb9f888a3d913e46f4a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -602494712, guid: 0b7de3707b475bb58be8075b9bb7a3e0, type: 3}
+      objectReference: {fileID: 21300000, guid: f422a5d55b8e5484db5d1f2af598a3be, type: 3}
     - target: {fileID: 6030116349743427237, guid: 5fbfa082c1fd9eb9f888a3d913e46f4a, type: 3}
       propertyPath: m_Color.b
       value: 0.00088214874
@@ -4918,6 +4926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phone
       objectReference: {fileID: 0}
+    - target: {fileID: 3993757306035763428, guid: 237d6bfab7bbf99ef94041ee112d38d5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 074a3a7fe36c40f4980f6c8b63f90e00, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
